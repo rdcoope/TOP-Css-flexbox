@@ -1,0 +1,54 @@
+div{
+    border: 1px black solid;
+    /*display: flex;*/
+}
+.blue{
+  
+    width: 400px;
+    height:350px;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+/*end of flex-cener */
+
+.header  {
+    display: flex;
+    font-family: monospace;
+    background: papayawhip;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+  }
+  
+  ul.header-ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding:0px;
+    gap: 10px;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+  /* end of header */
+
