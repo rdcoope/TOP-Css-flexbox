@@ -78,7 +78,12 @@ div{border: 1px black dotted;}
 }
 .header{
     font-weight: bold;
+    font-size: 16px;
 }
 .modal{
     flex-shrink: 0;
+}
+.text{
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
 }
